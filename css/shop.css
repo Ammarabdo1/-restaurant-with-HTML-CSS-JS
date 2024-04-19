@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/******************! Navbar ******************/
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+  padding: 23px 70px;
+  background: transparent !important;
+}
+
+.navbar .navbar-toggler .navbar-toggler-icon {
+  color: white !important;
+}
+
+.navbar .collapse {
+  justify-content: space-between;
+}
+
+.navbar .collapse .nav-link {
+  margin-right: 30px;
+  color: white;
+  font-size: 1.1em;
+}
+
+.navbar .collapse .nav-link:hover {
+  color: rgb(184, 124, 56);
+}
+
+.navbar .collapse button {
+  background-color: transparent;
+  border: 1px solid rgb(206, 206, 206);
+  outline: 1px solid rgb(206, 206, 206);
+  outline-offset: 5px;
+  width: 110px;
+  height: 35px;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.navbar .collapse button:hover {
+  background-color: rgb(184, 124, 56);
+  outline: 1px solid rgb(184, 124, 56);
+  border: 1px solid rgb(184, 124, 56);
+}
+
+/******************! Header ******************/
+header .headerSec{
+    background: url(../images/erica-shop-bg1-a.jpg) no-repeat ;
+    background-size: cover;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+header .headerSec .container h1{
+    color: white;
+    font-family: 'Spectral', serif;
+
+}
+
+header .headerSec .container p{
+    color: white;
+    font-size: 1.2em;
+}
+
+header .headerSec .container a{
+    color: white;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+header .headerSec .container a:hover{
+    color: rgb(184, 124, 56);
+}
+
+/******************! section (( 2 )) ******************/
+.sec1{
+    margin-top: 50px;
+}
+
+.sec1 div.image{
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+.sec1 div.image img{
+  width: 100%;
+  height: 350px;
+}
+
+.sec1 div.image button{
+  position: absolute;
+  bottom: 15px;
+  right: 8px;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  transition: all 0.2s ease;
+  border-radius:100%;
+}
+
+.sec1 div.image button:hover{
+  color: white;
+  background-color:rgb(184, 124, 56) ;
+}
+
+.sec1 h2{
+  font-family: Spectral, serif;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 10px;
+}
+
+.sec1 p{
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(184, 124, 56);
+}
+
+/******************! Footer ******************/
+footer {
+  text-align: center;
+  margin: 70px 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(129, 128, 128);
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+footer a:hover {
+  color: rgb(184, 124, 56);
+}
+
+footer h3 {
+  font-family: "Spectral", serif;
+}
+
+footer img {
+  width: 100px;
+}
+
+footer p {
+  margin-top: 20px;
+  color: rgb(129, 128, 128);
+}
+
+footer .borderBottom {
+  width: 100px;
+  height: 1px;
+  background-color: rgb(184, 124, 56) !important;
+  margin: auto;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+
+  footer img {
+    margin-top: 40px;
+  }
+
+  footer .borderBottom {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+  footer img {
+    margin-top: 40px;
+  }
+
+  footer .borderBottom {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  
+.sec1 div.image button{
+  bottom: 12px;
+  right: 6px;
+  width: 30px;
+  height: 30px;
+}
+
+.sec1 div.image button i{
+  font-size: .5em;
+}
+
+.sec1 h2{
+  font-size: 1.6rem;
+}
+
+.sec1 p{
+  font-size: 1.2rem;
+}
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+
+}
